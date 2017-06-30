@@ -1,0 +1,111 @@
+[
+    {
+      "id": 0,
+      "firstName": "Skye",
+      "lastName": "Huel",
+      "country": "Turkmenistan",
+      "address": "4118 Norma Spring",
+      "city": "North Elmiratown",
+      "state": "Maryland",
+      "zip": "49731-4456",
+      "phone": "1-802-052-3561 x1721"
+    },
+    {
+      "id": 1,
+      "firstName": "Estel",
+      "lastName": "Turcotte",
+      "country": "Djibouti",
+      "address": "617 Deshawn Union",
+      "city": "East Gersonstad",
+      "state": "Iowa",
+      "zip": "35084",
+      "phone": "733.667.0117"
+    },
+    {
+      "id": 2,
+      "firstName": "Lola",
+      "lastName": "Pfeffer",
+      "country": "Australia",
+      "address": "7376 Nolan Inlet",
+      "city": "North Rhiannamouth",
+      "state": "Utah",
+      "zip": "36260-5964",
+      "phone": "1-402-698-5461"
+    },
+    {
+      "id": 3,
+      "firstName": "Keyshawn",
+      "lastName": "Miller",
+      "country": "Norway",
+      "address": "23108 Sierra Alley",
+      "city": "Herzoghaven",
+      "state": "Oklahoma",
+      "zip": "29909",
+      "phone": "1-938-751-8895 x711"
+    },
+    {
+      "id": 4,
+      "firstName": "Alexis",
+      "lastName": "Weimann",
+      "country": "Vietnam",
+      "address": "276 Conn Place",
+      "city": "North Erika",
+      "state": "Alabama",
+      "zip": "06064-0904",
+      "phone": "(722) 537-2707"
+    },
+    {
+      "id": 5,
+      "firstName": "Emory",
+      "lastName": "Greenfelder",
+      "country": "Comoros",
+      "address": "07405 Klein Branch",
+      "city": "East Garett",
+      "state": "Mississippi",
+      "zip": "10217-4749",
+      "phone": "(955) 825-0375 x077"
+    },
+    {
+      "id": 6,
+      "firstName": "Macey",
+      "lastName": "King",
+      "country": "Mali",
+      "address": "268 Kassulke Ridges",
+      "city": "Lefflerfort",
+      "state": "Minnesota",
+      "zip": "15157-7398",
+      "phone": "1-497-827-3522"
+    },
+    {
+      "id": 7,
+      "firstName": "Isadore",
+      "lastName": "Rogahn",
+      "country": "Mexico",
+      "address": "62617 Trinity Road",
+      "city": "Frederikfurt",
+      "state": "Maine",
+      "zip": "78683-9585",
+      "phone": "979-885-8758 x16301"
+    },
+    {
+      "id": 8,
+      "firstName": "Clyde",
+      "lastName": "Lind",
+      "country": "Kyrgyz Republic",
+      "address": "29555 Blick Haven",
+      "city": "West Albina",
+      "state": "Nevada",
+      "zip": "23413-0888",
+      "phone": "134.053.8100 x53107"
+    },
+    {
+      "id": 9,
+      "firstName": "Alfonzo",
+      "lastName": "Harris",
+      "country": "Singapore",
+      "address": "457 Turcotte Road",
+      "city": "New Krista",
+      "state": "Alabama",
+      "zip": "04814",
+      "phone": "1-724-794-1153 x9227"
+    }]
