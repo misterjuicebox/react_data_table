@@ -159,10 +159,9 @@ class App extends Component {
   handleSort(order, sorter){
     let peoples = this.state.peoples;
 
-    if(sorter === 'firstName'){
       if(order === 'DESC'){
         peoples.sort(function(a, b){
-          let nameA=a.firstName.toLowerCase(), nameB=b.firstName.toLowerCase();
+          let nameA=a[sorter].toLowerCase(), nameB=b[sorter].toLowerCase();
           if(nameA < nameB) return -1;
           if(nameA > nameB) return 1;
           return 0;
@@ -170,148 +169,14 @@ class App extends Component {
       }
       else if(order === 'ASC'){
         peoples.sort(function(a, b){
-          let nameA=a.firstName.toLowerCase(), nameB=b.firstName.toLowerCase();
+          let nameA=a[sorter].toLowerCase(), nameB=b[sorter].toLowerCase();
           if(nameA > nameB) return -1;
           if(nameA < nameB) return 1;
           return 0;
         })
       }
-    }
-
-    if(sorter === 'lastName'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.lastName.toLowerCase(), nameB=b.lastName.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.lastName.toLowerCase(), nameB=b.lastName.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'country'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.country.toLowerCase(), nameB=b.country.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.country.toLowerCase(), nameB=b.country.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'address'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.address.toLowerCase(), nameB=b.address.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.address.toLowerCase(), nameB=b.address.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'city'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.city.toLowerCase(), nameB=b.city.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.city.toLowerCase(), nameB=b.city.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'state'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.state.toLowerCase(), nameB=b.state.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.state.toLowerCase(), nameB=b.state.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'zip'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.zip.toLowerCase(), nameB=b.zip.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.zip.toLowerCase(), nameB=b.zip.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
-
-    if(sorter === 'phone'){
-      if(order === 'DESC'){
-        peoples.sort(function(a, b){
-          let nameA=a.phone.toLowerCase(), nameB=b.phone.toLowerCase();
-          if(nameA < nameB) return -1;
-          if(nameA > nameB) return 1;
-          return 0;
-        })
-      }
-      else if(order === 'ASC'){
-        peoples.sort(function(a, b){
-          let nameA=a.phone.toLowerCase(), nameB=b.phone.toLowerCase();
-          if(nameA > nameB) return -1;
-          if(nameA < nameB) return 1;
-          return 0;
-        })
-      }
-    }
   }
-
+  
   handleDropDown(){
     document.getElementById('drop-down').classList.toggle('show');
   }
